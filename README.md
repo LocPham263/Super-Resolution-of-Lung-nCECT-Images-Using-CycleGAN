@@ -74,3 +74,6 @@ The implementation of CycleGAN in this work is based on the following sources:
 
 The lung lobes segmentation in this work is based on the following sources:
 - [ResUNet](https://github.com/JoHof/lungmask)
+
+We recommend the use of MevisLab for the analysis and visualization of data in this work
+- [MevisLab](https://www.mevislab.de/)

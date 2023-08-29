@@ -51,7 +51,7 @@ datasets
 python train.py --dataroot ./datasets/lung_COPD --name lung_COPD --model cycle_gan --which_direction BtoA --fineSize 160
 ```
 
-Training results could be found in `./checkpoints/lung_COPD/web/images`
+Training results could be found in `./checkpoints/lung_COPD/web/images` \
 Training weights could be found in `./checkpoints/lung_COPD`
 
 4. Command for inference (refer to `./options/test_options.py` for more customization of the command)

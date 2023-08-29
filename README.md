@@ -4,9 +4,9 @@
 This git contains code for image synthesis from low-resolution nCECT lung image to high-resolution CECT lung image using CycGAN.
 
 # Dataset
-## Training Dataset
+### Training Dataset
 We retrospectively collected 21 pairs of nCECT and CECT images of COPD/lung cancer patients for training, each pair is from the same patient. Note that the training is unsupervised (1 image is paired with other 20 images for training).
-## Evaluation Dataset
+### Evaluation Dataset
 We retrospectively collected 17 nCECT images of COPD/lung cancer patients for evaluation. The diagnostic CECT image of those patient was lost or unsaved.
 
 # Method

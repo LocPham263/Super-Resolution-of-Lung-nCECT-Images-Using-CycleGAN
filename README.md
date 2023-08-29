@@ -51,13 +51,14 @@ datasets
 python train.py --dataroot ./datasets/lung_COPD --name lung_COPD --model cycle_gan --which_direction BtoA --fineSize 160
 ```
 
-Training results could be found in `./checkpoints/lung_COPD/web/index.html`
+Training results could be found in `./checkpoints/lung_COPD/web/images`
+Training weights could be found in `./checkpoints/lung_COPD`
 
 4. Command for inference (refer to `./options/test_options.py` for more customization of the command)
 ```bash
 python test.py --dataroot ./datasets/lung_COPD --name lung_COPD --model cycle_gan --which_direction BtoA --fineSize 160
 ```
-Inference results could be found in `./results/lung_COPD/test_latest/index.html`
+Inference results could be found in `./results/lung_COPD/test_latest/images`
 
 # Results
 Here are some potential visual results of the proposed method. Each row represents a test case, from left (original low-resolution nCECT) to right (super-resolution nCECT):

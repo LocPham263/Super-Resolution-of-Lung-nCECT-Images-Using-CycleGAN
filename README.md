@@ -64,6 +64,8 @@ Inference results could be found in `./results/lung_COPD/test_latest/images`
 Here are some potential visual results of the proposed method. Each row represents a test case, from left (original low-resolution nCECT) to right (super-resolution nCECT):
 
 <img src="img/Result_1.png" height="380" width="700"/>
+<img src="img/Result_2.png" height="280" width="700"/>
+<img src="img/Result_3.png" height="350" width="700"/>
 
 # Reference
 The implementation of CycleGAN in this work is based on the following sources:
